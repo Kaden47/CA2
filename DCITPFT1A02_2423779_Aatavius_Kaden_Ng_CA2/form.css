@@ -1,0 +1,48 @@
+header {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text] {
+    width: 70%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(7, 7, 7)
+}
+
+button[type=submit] {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(223, 68, 68);
+    font-weight: bolder;
+    color: azure;
+}
+
+input[type=text]:focus{
+    background-color:rgb(235, 207, 197);
+}
+
+option {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[value=option] {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
